@@ -1,12 +1,12 @@
-import SideBar from '../components/SideBar';
+import MainLayout from '../layout/MainLayout';
+
 import Content from '../components/Content';
 
 function StoreDashboard() {
   return (
-    <div className="main-layout">
-      <SideBar />
+    <MainLayout>
       <Content />
-    </div>
+    </MainLayout>
   );
 }
 
